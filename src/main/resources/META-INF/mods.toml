@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+issueTrackerURL="http://my.issue.tracker/"
+
+[[mods]]
+modId="emadem"
+version="1.0.0"
+displayName="Emadem"
+displayURL="https://minecraft.curseforge.com/projects/emadem"
+credits="Thanks for this example mod goes to Java"
+authors="KidsDontPlay"
+description='''
+Entity Materializer/Dematerializer
+'''
+
+[[dependencies.emadem]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emadem]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4,1.15)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.emadem]]
+    modId="limelib"
+    mandatory=true
+    versionRange="[1.0.0,)"
+    ordering="NONE"
+    side="BOTH"
