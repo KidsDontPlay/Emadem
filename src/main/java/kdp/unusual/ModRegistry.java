@@ -1,9 +1,9 @@
-package kdp.emadem;
+package kdp.unusual;
 
 import net.minecraft.tileentity.TileEntityType;
 
-import kdp.emadem.block.DropExtractorBlock;
-import kdp.emadem.tile.DropExtractorTile;
+import kdp.unusual.block.DropExtractorBlock;
+import kdp.unusual.tile.DropExtractorTile;
 import kdp.limelib.block.GenericBlock;
 
 public interface ModRegistry {

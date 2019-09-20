@@ -1,4 +1,4 @@
-package kdp.emadem.tile;
+package kdp.unusual.tile;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
@@ -6,8 +6,6 @@ import javax.annotation.Nullable;
 import com.google.common.base.Predicates;
 
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.MobEntity;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tileentity.ITickableTileEntity;
 import net.minecraft.util.Direction;
@@ -22,7 +20,7 @@ import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 
-import kdp.emadem.ModRegistry;
+import kdp.unusual.ModRegistry;
 import kdp.limelib.tile.GenericTile;
 
 public class DropExtractorTile extends GenericTile implements ITickableTileEntity {

@@ -1,6 +1,4 @@
-package kdp.emadem;
-
-import java.util.HashMap;
+package kdp.unusual;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

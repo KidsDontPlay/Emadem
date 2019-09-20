@@ -1,4 +1,4 @@
-package kdp.emadem.block;
+package kdp.unusual.block;
 
 import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemGroup;
